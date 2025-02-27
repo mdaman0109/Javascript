@@ -43,6 +43,7 @@ if (true) {
 
 // ++++++++++++++++++ interesting ++++++++++++++++++
 
+//In this type of function declaration HOISTING Works ( Function declare krne se pehle hi call krna)
 
 console.log(addone(5))
 
@@ -51,7 +52,7 @@ function addone(num){
 }
 
 
-
+//In this type of function declaration HOISITING doesn't works(Error throw krega agar function declare krne se pehle call kiye toh)
 addTwo(5)
 const addTwo = function(num){
     return num + 2
