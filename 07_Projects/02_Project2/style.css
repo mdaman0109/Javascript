@@ -1,0 +1,55 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    background-color: grey;
+}
+.total
+{
+    
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.head 
+{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+
+}
+
+
+
+.main
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button
+{
+    margin-top: 20px;
+}
+.first span
+{
+    display: inline-block;
+}
+
+.second span
+{
+    display: inline-block;
+}
+
+input
+{
+    margin-left: 20px;
+    width: 100px;
+}
+
