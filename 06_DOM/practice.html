@@ -44,8 +44,20 @@
     lastLang.remove()
 
 
-    
+    //add more elements
+
+    function addmore(lang,lang1)
+    {
+        const newli= document.createElement('li')
+        newli.append(document.createTextNode = lang);
+        document.querySelector('.language').appendChild(newli)   
 
 
+        const newestli = document.createElement('li')
+        newestli.innerHTML= lang1
+        document.querySelector('.language').appendChild(newestli)
+    }
+
+ addmore('C++','java')
 </script>
 </html>
